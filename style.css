@@ -1,0 +1,78 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url(./imagens/comeco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+h1 {
+   
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+
+}
+
+.textDiv{
+  position: absolute;
+  top: 320px;
+  left: 120px;
+  color: #690303;
+}
+
+.wrapper{
+    position: fixed;
+    top: 800px;
+    left: 615px;
+    transform: translate(-50%, -50%);
+  }
+  
+  a{
+    display: block;
+    text-align: center;
+    width: 310px;
+    height: 49px;
+    line-height: 40px;
+    font-size: 23px;
+    font-family:Century Gothic;
+    text-decoration: none;
+    color: #690303;
+    border: 2px solid #690303;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 12px;
+    background-color: #acacac;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #690303;
+    transition: all .35s;
+    border-radius: 10px;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+  
+

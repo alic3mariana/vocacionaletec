@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url(./imagens/agorafoi.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+
+   
+}
+
+#letra{
+    display: flex;
+    width: 600x;
+    height: 430px;
+    margin-left: 800px;
+    margin-bottom: -120px;
+    margin-top: -70px;
+    color: #fff;
+
+}
+.pergunta {
+    margin-left: 680px; 
+    height: 10px;
+    width: 10px;
+
+}
+
+.label {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 27px;
+}
+
+h1{
+    display: flex;
+    margin-left: 680px;    
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color:#ffffff;
+}
+#result {
+    display: flex;
+    margin-left: 936px; 
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+.CalcularResultado{
+    position:absolute;
+    margin-top: 40px;
+    left: 1000px;
+    transform: translate(-50%, -50%);
+    color: #560101;
+  
+  }
+
+  #btn{
+    display: block;
+    text-align: center;
+    width: 310px;
+    height: 49px;
+    line-height: 40px;
+    font-size: 23px;
+    font-family:Century Gothic;
+    text-decoration: none;
+    color: #4a1616;
+    border: 2px solid #4a1616;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 12px;
+    background-color: #acacac;
+  }
+
+
+  #btn span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  #btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #4a1616;
+    transition: all .35s;
+    border-radius: 10px;
+  }
+  
+  #btn:hover{
+    color: #fff;
+  }
+  
+  #btn:hover:after{
+    width: 100%;
+  }
+
